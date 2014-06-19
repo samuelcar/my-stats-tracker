@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'debug' => false,
+	'debug' => TRUE,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://my-stats-tracker.local.dev',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -121,6 +121,8 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+                'Rtablada\PackageInstaller\PackageInstallerServiceProvider',
+                'Way\Generators\GeneratorsServiceProvider',
 
 	),
 

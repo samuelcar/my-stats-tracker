@@ -4,7 +4,10 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "4.2.*",
+                "anahkiasen/former": "dev-master",
+		"rtablada/package-installer": "dev-master",
+		"way/generators": "2.*"
 	},
 	"autoload": {
 		"classmap": [
