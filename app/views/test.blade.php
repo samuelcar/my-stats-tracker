@@ -1,0 +1,1 @@
+C:\xampp\htdocs\my-stats-tracker\app/views/test.blade.php
