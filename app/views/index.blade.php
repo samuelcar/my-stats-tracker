@@ -444,8 +444,6 @@
         {{ HTML::script('js/bootstrap.min.js') }}
         <!-- AdminLTE App -->
         {{ HTML::script('js/AdminLTE/app.js') }}
-        <!-- AdminLTE for demo purposes -->
-        {{ HTML::script('js/AdminLTE/demo.js') }}
 
         </body>
 </html>
